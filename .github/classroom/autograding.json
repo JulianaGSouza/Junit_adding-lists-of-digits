@@ -1,11 +1,11 @@
 {
   "tests": [
     {
-      "name": "Check for at least one test",
+      "name": "Check for 100 grade",
       "setup": "",
       "run": "mvn -q -B package --file pom.xml andy:run",
       "input": "",
-      "output": "1/1 passed",
+      "output": "Final grade: 100/100",
       "comparison": "included",
       "timeout": 10,
       "points": 50
